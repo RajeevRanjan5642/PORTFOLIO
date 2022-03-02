@@ -40,7 +40,6 @@ body {
 	margin-bottom: 20px;
 	padding: 135px;
 	outline: red 2px bold;
-
 }
 .bio .heading_1 {
 	font-family: cursive;
@@ -49,7 +48,6 @@ body {
 	color: navy;
 	font-size: 75px;
 }
-
 .bio p {
 	font-family: serif;
 	color: navy;
@@ -119,7 +117,8 @@ table tr td {
 }
 .img {
 	width: 400px;
-	padding-left: 500px;
+	margin-left: 500px;
+	box-shadow: 10px 10px 10px;
 }
 .pro{
 	color: goldenrod;
