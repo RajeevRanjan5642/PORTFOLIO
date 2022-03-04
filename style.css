@@ -5,9 +5,7 @@
 body {
 	background-color: white;
 }
-div {
-	outline: red solid 2px;
-}
+
 .navBar {
 	background-color: navy;
 	border-radius: 0;
