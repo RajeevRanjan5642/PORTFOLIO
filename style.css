@@ -5,6 +5,9 @@
 body {
 	background-color: white;
 }
+div {
+	outline: red solid 2px;
+}
 .navBar {
 	background-color: navy;
 	border-radius: 0;
@@ -44,7 +47,7 @@ body {
 .bio .heading_1 {
 	font-family: cursive;
 	font-weight: bold;
-	padding-left: 225px;
+	margin-left: 225px;
 	color: navy;
 	font-size: 75px;
 }
@@ -80,7 +83,7 @@ body {
 	font-weight: bold;
 	color: goldenrod;
 	font-size: 70px;
-	padding-left: 20px;
+	margin-left: 20px;
 }
 .table {
 	background-color: goldenrod;
@@ -99,14 +102,14 @@ table tr td {
 	font-weight: bold;
 	color: navy;
 	font-size: 50px;
-	padding-left: 20px;
+	margin-left: 20px;
 }
 .heading_4 {
 	font-family: cursive;
 	font-weight: bold;
 	color: goldenrod;
 	font-size: 50px;
-	padding-left: 600px;
+	margin-left: 600px;
 }
 .project {
 	width: 98.5%;
@@ -171,13 +174,14 @@ table tr td {
 .media ul li a {
 	color: goldenrod;
 	font-size: 30px;
+	text-decoration: none;
 }
 .square {
 	display: flex;
 }
 .copyright {
-	margin-left: 600px;
-	margin-top: 50px;
+	
+	margin: 50px 450px 10px 600px;
 }
 .text {
 	font-family: sans-serif;
